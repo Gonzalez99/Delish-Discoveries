@@ -1,8 +1,8 @@
 <Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="navigatingTo" cssFile="/main-page.css">
     <ActionBar title="Delish Discoveries"/>
      <GridLayout rows="auto, auto, auto" columns="*">
-        <Label row="1"class="spcae"></Label>
-        <Label row="2"class="spcae"></Label>
+        <Label row="1" class="spcae"></Label>
+        <Label row="2" class="spcae"></Label>
          <StackLayout row="3" orientation="horizontal" class="search-bar-container">
              <SearchBar hint="Search for recipes" class="custom-search-bar"></SearchBar>
         </StackLayout>
