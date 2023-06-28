@@ -1,0 +1,10 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="navigatingTo" cssFile="/main-page.css">
+    <ActionBar title="Delish Discoveries"/>
+
+     <GridLayout rows="auto" columns="*">
+        <Label row="1" text="Delish Discoveries" class="title"></Label>
+         <StackLayout row="1" orientation="horizontal" class="search-bar-container">
+             <SearchBar hint="Search for recipes"></SearchBar>
+        </StackLayout>
+    </GridLayout>
+</Page>
