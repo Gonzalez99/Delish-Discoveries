@@ -1,5 +1,21 @@
+Page {
+  background-color: #111111;
+  color: #f6f6f6;
+}
+
 ActionBar {
   background-color: #111111;
   color: #ffcb74;
-  margin-left: 100%;
+}
+
+.space {
+  height: 100px;
+}
+
+.custom-search-bar {
+  background-color: #f6f6f6;
+  color: #111111;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
