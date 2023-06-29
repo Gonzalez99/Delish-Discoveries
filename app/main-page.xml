@@ -1,7 +1,6 @@
 <Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="navigatingTo" cssFile="/main-page.css">
     <ActionBar title="Delish Discoveries"/>
-    <ActionItem icon="res://menu" tap="showPopupMenu" android.position="popup">
-     <GridLayout rows="auto, auto, auto" columns="*">
+    <GridLayout rows="auto, auto, auto" columns="*">
         <Label row="1" class="space"></Label>
         <Label row="2" class="space"></Label>
          <StackLayout row="3" orientation="horizontal" class="search-bar-container">
